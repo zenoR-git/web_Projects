@@ -1,0 +1,53 @@
+*{
+    font-family: "Kaushan Script" , cursive ,monospace;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: darksalmon;
+}
+
+.container1{
+    margin-left:35px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left:15px;
+    margin-top:25px;
+}
+
+.container3{
+    display: none;
+    position:absolute;
+    left:42%;
+    top:30%;
+}
+#note{
+    height: 300px;
+    width:275px;
+    padding:45px 15px 20px 15px;
+    outline:none;
+}
+
+#check{
+    position: absolute;
+    top:10px;
+    right:42px;
+}
+
+#cross{
+    position: absolute;
+    top:10px;
+    right:12px;
+}
+
+svg{
+    color:gray;
+}
